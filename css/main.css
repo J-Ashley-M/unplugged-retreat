@@ -637,6 +637,10 @@ input[type=button] {
     width: 45%;
 }
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 .contact-section .content-wrapper h2 {
     width: 80%;
 }
@@ -711,6 +715,9 @@ About Page
    margin-bottom: 100px;
 }
 
+.map figure {
+  padding-bottom: 38%;
+}
 
 /* ==========================================================================
 FAQ Page
