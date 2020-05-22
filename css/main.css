@@ -331,11 +331,11 @@ input[type=button] {
 }
 
 .features {
+  background: url('../img/features.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/features.jpg') center no-repeat #333;
-  background-size: cover;
 }
 
 .features h2 {
@@ -363,7 +363,7 @@ input[type=button] {
 .features i {
 	font-size: 3.75em;
       margin-bottom: 40px;
-      margin-top: 20px;
+
 }
 
 .reviews {
@@ -613,10 +613,6 @@ input[type=button] {
 
   /*Features*/
 
-  .features {
-    max-height: 860px;
-  }
-
   .features h2 {
     margin-bottom: 20px;
     font-size: 2.25em;
@@ -627,7 +623,7 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex-basis: 50%;
+    flex: 50%;
   }
 
   .features .features-item-description {
@@ -635,6 +631,7 @@ input[type=button] {
   }
 
   .features i {
+    font-size: 4.5em;
     margin-bottom: 30px;
   }
 
