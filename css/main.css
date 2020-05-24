@@ -579,7 +579,7 @@ input[type=button] {
   }
 
   header nav ul {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .header-divider {
