@@ -348,12 +348,12 @@ input[type=button] {
   font-size: .875em;
 }
 
-.features .article {
+.features article {
   width: 63%;
   margin: 30px 0;
 }
 
-.features .feature-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,7 +362,7 @@ input[type=button] {
 
 .features i {
 	font-size: 3.75em;
-      margin-bottom: 40px;
+  margin-bottom: 40px;
 
 }
 
@@ -613,6 +613,7 @@ input[type=button] {
 
   /*Features*/
 
+
   .features h2 {
     margin-bottom: 20px;
     font-size: 2.25em;
@@ -626,8 +627,13 @@ input[type=button] {
     flex: 50%;
   }
 
+  .features-items {
+    flex-direction: column;
+    flex-flow: column wrap;
+  }
+
   .features .features-item-description {
-    width: 30%;
+    width: 62%;
   }
 
   .features i {
@@ -764,7 +770,7 @@ input[type=button] {
 }
 
 
-@media only screen and (min0width: 1200px) {
+@media only screen and (min-width:1200px) {
   /*Desktop styles here*/
 
 header {
@@ -815,7 +821,7 @@ aside .content-wrapper .form {
 }
 
 .features article {
-   flex-basis: 33%;
+  flex-basis: 33%;
 }
 
 /* Reviews */ 
